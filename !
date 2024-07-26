@@ -1,0 +1,5 @@
+from movie.api.call import gen_url
+
+def test_gen_url():
+    url = gen_url()
+    assert url == "http://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=43e14f5940bd8b7cdab05226ec6e833a&targetDt=20120101" 
